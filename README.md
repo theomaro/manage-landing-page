@@ -39,5 +39,5 @@ Users should be able to:
 ## Author
 
 - Website - [Mathew Maro Joseph](https://github.com/theomaro/theo)
-- Frontend Mentor - [@theo-pombe](https://www.frontendmentor.io/profile/theomaro)
+- Frontend Mentor - [@theomaro](https://www.frontendmentor.io/profile/theomaro)
 - Twitter - [@theo_pombe](https://www.twitter.com/theo_pombe)
