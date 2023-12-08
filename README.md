@@ -33,11 +33,12 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Manage Landing Page](https://theomaro.github.io/manage-landing-page/)
+- Solution URL: [Manage Landing Page](https://www.frontendmentor.io/solutions/responsive-landing-page-using-tailwindcss-and-typescript-tEhgBjQB5v)
+- Live Site URL: [Manage Landing Page](https://theomaro.github.io/manage-landing-page)
+- Source code: [Manage Landing Page](https://github.com/theomaro/manage-landing-page)
 
 ## Author
 
-- Website - [Mathew Maro Joseph](https://github.com/theo-pombe/theo)
-- Frontend Mentor - [@theo-pombe](https://www.frontendmentor.io/profile/theo-pombe)
+- Website - [Mathew Maro Joseph](https://github.com/theomaro/theo)
+- Frontend Mentor - [@theo-pombe](https://www.frontendmentor.io/profile/theomaro)
 - Twitter - [@theo_pombe](https://www.twitter.com/theo_pombe)
