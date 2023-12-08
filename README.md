@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Manage Landing Page](https://theo-pombe.github.io/manage-landing-page/)
+- Live Site URL: [Manage Landing Page](https://theomaro.github.io/manage-landing-page/)
 
 ## Author
 
