@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./dist/css/style.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Manage landing page | Frontend Mentor</title>
+  </head>
+  <body class="font-BeVietnamPro">
+    <header class="container px-2 md:px-4">
+      <nav class="flex justify-between p-6 relative md:py-10 lg:py-16">
+        <!-- Logo -->
+        <div class="pt-2">
+          <img src="./images/logo.svg" alt="" />
+        </div>
+
+        <!-- Navbar menu -->
+        <div
+          id="navbar-menu"
+          class="hidden bg-white absolute right-0 left-0 top-3/4 shadow-lg rounded py-8 md:block md:relative md:shadow-none md:rounded-none lg:bg-transparent md:py-2"
+        >
+          <ul
+            class="flex flex-col items-center font-bold text-DarkBlue text-lg gap-6 md:flex-row md:flex-1 md:justify-end md:font-normal lg:justify-center lg:gap-8 xl:gap-16"
+          >
+            <li>
+              <a href="#" class="hover:text-DarkGrayishBlue">Pricing </a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-DarkGrayishBlue"> Product </a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-DarkGrayishBlue"> About Us </a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-DarkGrayishBlue"> Careers </a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-DarkGrayishBlue"> Community </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- CTA Button -->
+        <button
+          type="button"
+          class="hidden text-white self-baseline bg-BrightRed hover:bg-opacity-80 rounded-full shadow-lg py-2 px-6 lg:block"
+        >
+          Get Started
+        </button>
+
+        <!-- humberger icon -->
+        <button
+          type="button"
+          id="humberger-menu"
+          class="group flex flex-col justify-center items-center gap-y-1 md:hidden"
+        >
+          <span
+            class="w-7 h-1 bg-DarkBlue group-[.is-open]:rotate-45 group-[.is-open]:translate-y-1"
+          ></span>
+          <span class="w-7 h-1 bg-DarkBlue group-[.is-open]:hidden"></span>
+          <span
+            class="w-7 h-1 bg-DarkBlue group-[.is-open]:-rotate-45 group-[.is-open]:-translate-y-1"
+          ></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO SECTION-->
+      <section class="container px-4 mt-10">
+        <div
+          class="flex flex-col-reverse items-center gap-12 md:px-6 lg:flex-row lg:justify-between lg:items-start"
+        >
+          <!-- Content -->
+          <article
+            class="flex flex-col items-center gap-5 lg:w-1/2 lg:items-start"
+          >
+            <h1
+              class="text-DarkBlue text-4xl text-center leading-snug font-bold md:w-10/12 lg:w-full lg:max-w-md lg:text-start lg:text-5xl xl:max-w-2xl"
+            >
+              Bring everyone together to build better products.
+            </h1>
+            <p
+              class="text-DarkGrayishBlue text-lg text-center mb-6 md:max-w-lg lg:max-w-sm lg:text-start"
+            >
+              Manage makes it simple for software teams to plan day-to-day tasks
+              while keeping the larger team goals in view.
+            </p>
+
+            <!-- CTA Button -->
+            <button
+              type="button"
+              class="text-white bg-BrightRed hover:bg-opacity-80 rounded-full shadow-lg py-3 px-8"
+            >
+              Get Started
+            </button>
+          </article>
+
+          <!-- Image -->
+          <div>
+            <img src="./images/illustration-intro.svg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURES SECTION -->
+      <section class="container mt-24 px-4">
+        <div class="flex flex-col lg:flex-row lg:justify-between">
+          <!-- Heading -->
+          <article
+            class="mb-16 text-center px-4 md:w-10/12 md:mx-auto md:mb-20 lg:w-2/5 lg:text-start lg:mb-0 lg:mx-0"
+          >
+            <h2
+              class="text-4xl text-DarkBlue leading-normal font-bold mb-6 lg:text-5xl"
+            >
+              What's different about Manage?
+            </h2>
+            <p class="text-DarkGrayishBlue text-lg leading-relaxed lg:text-xl">
+              Manage provides all the functionality your team needs, without the
+              complexity. Our software is tailor-made for modern digital product
+              teams.
+            </p>
+          </article>
+
+          <!-- Features -->
+          <article class="flex flex-col gap-12 ps-6 md:items-center md:-ps-6">
+            <div class="flex flex-col gap-4">
+              <div
+                class="flex items-center font-bold bg-VeryPaleRed rounded-s-full md:bg-white"
+              >
+                <span
+                  class="text-white text-center align-middle bg-BrightRed rounded-full px-6 py-2"
+                >
+                  01
+                </span>
+                <h3
+                  class="flex-1 text-DarkBlue ps-5 py-1 whitespace-nowrap lg:text-xl"
+                >
+                  Track company-wide progress
+                </h3>
+              </div>
+              <p
+                class="text-DarkGrayishBlue leading-relaxed md:ms-20 md:max-w-sm lg:text-xl"
+              >
+                See how your day-to-day tasks fit into the wider vision. Go from
+                tracking progress at the milestone level all the way done to the
+                smallest of details. Never lose sight of the bigger picture
+                again.
+              </p>
+            </div>
+
+            <div class="flex flex-col gap-4">
+              <div
+                class="flex items-center font-bold bg-VeryPaleRed rounded-s-full md:bg-white"
+              >
+                <span
+                  class="text-white text-center align-middle bg-BrightRed rounded-full px-6 py-2"
+                >
+                  02
+                </span>
+                <h3
+                  class="flex-1 text-DarkBlue ps-5 py-1 whitespace-nowrap lg:text-xl"
+                >
+                  Advanced built-in reports
+                </h3>
+              </div>
+              <p
+                class="text-DarkGrayishBlue leading-relaxed md:ms-20 md:max-w-sm lg:text-xl"
+              >
+                Set internal delivery estimates and track progress toward
+                company goals. Our customisable dashboard helps you build out
+                the reports you need to keep key stakeholders informed.
+              </p>
+            </div>
+
+            <div class="flex flex-col gap-4">
+              <div
+                class="flex items-center font-bold bg-VeryPaleRed rounded-s-full md:bg-white"
+              >
+                <span
+                  class="text-white text-center align-middle bg-BrightRed rounded-full px-6 py-2"
+                >
+                  03
+                </span>
+                <h3
+                  class="flex-1 text-DarkBlue ps-5 py-1 whitespace-nowrap lg:text-xl"
+                >
+                  Everything you need in one place
+                </h3>
+              </div>
+              <p
+                class="text-DarkGrayishBlue leading-relaxed md:ms-20 md:max-w-sm lg:text-xl"
+              >
+                Stop jumping from one service to another to communicate, store
+                files, track tasks and share documents. Manage offers an
+                all-in-one team productivity solution.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- TESTIMONIAL -->
+      <section class="container mt-24 px-4">
+        <div class="flex flex-col space-y-10 items-center lg:space-y-16">
+          <h2 class="text-4xl text-DarkBlue font-bold mb-16">
+            What they've said
+          </h2>
+
+          <div class="flex md:flex-row md:gap-4">
+            <article
+              id="testimonial"
+              class="hidden gap-y-6 flex-col items-center text-center bg-VaryLightGray rounded shadow-sm pb-6 px-4 md:px-6 md:flex md:w-1/2 lg:w-1/3 xl:w-1/4"
+            >
+              <img src="./images/avatar-anisha.png" alt="" class="w-16 -mt-6" />
+              <h3 class="text-lg text-DarkBlue leading-normal font-bold">
+                Anisha Li
+              </h3>
+              <p class="text-DarkGrayishBlue leading-relaxed">
+                “Manage has supercharged our team's workflow. The ability to
+                maintain visibility on larger milestones at all times keeps
+                everyone motivated.”
+              </p>
+            </article>
+
+            <article
+              id="testimonial"
+              class="flex gap-y-6 flex-col items-center text-center bg-VaryLightGray rounded shadow-sm pb-6 px-4 md:px-6 md:w-1/2 lg:w-1/3 xl:w-1/4"
+            >
+              <img src="./images/avatar-ali.png" alt="" class="w-16 -mt-6" />
+              <h3 class="text-lg text-DarkBlue leading-normal font-bold">
+                Ali Bravo
+              </h3>
+              <p class="text-DarkGrayishBlue leading-relaxed">
+                “We have been able to cancel so many other subscriptions since
+                using Manage. There is no more cross-channel confusion and
+                everyone is much more focused.”
+              </p>
+            </article>
+
+            <article
+              id="testimonial"
+              class="hidden gap-y-6 flex-col items-center text-center bg-VaryLightGray rounded shadow-sm pb-6 px-4 md:px-6 lg:flex lg:w-1/3 xl:w-1/4"
+            >
+              <img
+                src="./images/avatar-richard.png"
+                alt=""
+                class="w-16 -mt-6"
+              />
+              <h3 class="text-lg text-DarkBlue leading-normal font-bold">
+                Richard Watts
+              </h3>
+              <p class="text-DarkGrayishBlue leading-relaxed">
+                “Manage allows us to provide structure and process. It keeps us
+                organized and focused. I can't stop recommending them to
+                everyone I talk to!”
+              </p>
+            </article>
+
+            <article
+              id="testimonial"
+              class="hidden gap-y-6 flex-col items-center text-center bg-VaryLightGray rounded shadow-sm pb-6 px-4 md:px-6 xl:flex xl:w-1/4"
+            >
+              <img src="./images/avatar-shanai.png" alt="" class="w-16 -mt-6" />
+              <h3 class="text-lg text-DarkBlue leading-normal font-bold">
+                Shanai Gough
+              </h3>
+              <p class="text-DarkGrayishBlue leading-relaxed">
+                “Their software allows us to track, manage and collaborate on
+                our projects from anywhere. It keeps the whole team in-sync
+                without being intrusive.”
+              </p>
+            </article>
+          </div>
+
+          <div class="flex gap-1 md:hidden">
+            <span
+              id="indicator"
+              class="block p-1 rounded-full border border-BrightRed"
+            >
+            </span>
+            <span
+              id="indicator"
+              class="block p-1 rounded-full border border-BrightRed bg-BrightRed"
+            >
+            </span>
+            <span
+              id="indicator"
+              class="block p-1 rounded-full border border-BrightRed"
+            >
+            </span>
+            <span
+              id="indicator"
+              class="block p-1 rounded-full border border-BrightRed"
+            >
+            </span>
+          </div>
+
+          <button
+            type="button"
+            class="text-white bg-BrightRed hover:bg-opacity-80 rounded-full shadow-lg py-3 px-8"
+          >
+            Get Started
+          </button>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="bg-BrightRed mt-24 cta">
+        <div
+          class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:flex-row md:py-12 md:space-y-0"
+        >
+          <div class="text-center text-white md:text-left">
+            <h2
+              class="text-5xl font-bold leading-tight md:text-4xl md:max-w-xl"
+            >
+              Simplify how your team works today
+            </h2>
+          </div>
+
+          <div>
+            <button
+              type="button"
+              class="text-BrightRed bg-white font-bold hover:bg-opacity-80 rounded-full shadow-2xl py-3 px-8"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-VeryDarkBlue text-white">
+      <div
+        class="container px-6 py-10 flex flex-col justify-between space-y-16 lg:flex-row-reverse lg:space-y-0"
+      >
+        <!-- Form -->
+        <article class="flex flex-col justify-between md:mx-auto">
+          <form>
+            <div class="flex gap-x-3">
+              <input
+                type="text"
+                placeholder="updates in your inbox..."
+                class="flex-1 text-black rounded-full shadow-2xl focus:outline-none px-6 py-2 placeholder:text-DarkGrayishBlue"
+              />
+              <button
+                type="button"
+                class="bg-BrightRed text-white rounded-full shadow-2xl focus:outline-none px-6 py-2 hover:bg-opacity-80"
+              >
+                Go
+              </button>
+            </div>
+          </form>
+
+          <div class="hidden lg:block">
+            <p>Copyright &copy; 2023, All Rights Reserve</p>
+          </div>
+        </article>
+
+        <!-- Navigation Links -->
+        <article class="flex justify-around lg:flex-1">
+          <ul class="flex flex-col space-y-3">
+            <li><a href="#" class="hover:text-BrightRed">Home</a></li>
+            <li><a href="#" class="hover:text-BrightRed">Pricing</a></li>
+            <li><a href="#" class="hover:text-BrightRed">Products</a></li>
+            <li><a href="#" class="hover:text-BrightRed">About Us</a></li>
+          </ul>
+
+          <ul class="flex flex-col space-y-3">
+            <li><a href="#" class="hover:text-BrightRed">Careers</a></li>
+            <li><a href="#" class="hover:text-BrightRed">Community</a></li>
+            <li><a href="#" class="hover:text-BrightRed">Privacy Policy</a></li>
+          </ul>
+        </article>
+
+        <!-- Logo & Social links -->
+        <article class="flex flex-col items-center gap-y-16 lg:items-start">
+          <!-- Social links -->
+          <ul class="flex justify-center items-center gap-x-6">
+            <li>
+              <a href="#">
+                <img src="./images/icon-facebook.svg" alt="" class="h-8" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/icon-youtube.svg" alt="" class="h-8" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/icon-twitter.svg" alt="" class="h-8" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/icon-pinterest.svg" alt="" class="h-8" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/icon-instagram.svg" alt="" class="h-8" />
+              </a>
+            </li>
+          </ul>
+
+          <!-- Logo -->
+          <div>
+            <img src="./images/logo.svg" alt="" class="h-8" />
+          </div>
+
+          <div class="lg:hidden">
+            <p>Copyright &copy; 2023, All Rights Reserve</p>
+          </div>
+        </article>
+      </div>
+    </footer>
+
+    <script src="./dist/js/index.js"></script>
+  </body>
+</html>
