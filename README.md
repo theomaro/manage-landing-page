@@ -29,7 +29,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.png)
+|          Desktop           |          Mobile           |
+| :------------------------: | :-----------------------: |
+| ![](./desktop-preview.png) | ![](./mobile-preview.png) |
 
 ### Links
 
