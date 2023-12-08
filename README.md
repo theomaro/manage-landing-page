@@ -35,7 +35,6 @@ Users should be able to:
 
 - Solution URL: [Manage Landing Page](https://www.frontendmentor.io/solutions/responsive-landing-page-using-tailwindcss-and-typescript-tEhgBjQB5v)
 - Live Site URL: [Manage Landing Page](https://theomaro.github.io/manage-landing-page)
-- Source code: [Manage Landing Page](https://github.com/theomaro/manage-landing-page)
 
 ## Author
 
