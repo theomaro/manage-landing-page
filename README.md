@@ -40,6 +40,10 @@ Users should be able to:
 
 - Solution URL: [Manage Landing Page](https://www.frontendmentor.io/solutions/responsive-landing-page-using-tailwindcss-and-typescript-tEhgBjQB5v)
 - Live Site URL: [Manage Landing Page](https://theomaro.github.io/manage-landing-page)
+- Clone this project
+  ```sh
+  $ git clone https://github.com/theomaro/manage-landing-page.git
+  ```
 
 ## Author
 
