@@ -20,12 +20,15 @@ This is a solution to the [Manage landing page challenge on Frontend Mentor](htt
 
 Users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+- ✅ View the optimal layout for the site depending on their device's screen size
+- ✅ See hover states for all interactive elements on the page
 - See all testimonials in a horizontal slider
-- Receive an error message when the newsletter sign up `form` is submitted if:
-  - The `input` field is empty
-  - The email address is not formatted correctly
+  - ✅ sequentially displaying a subset of one or more slides
+  - ✅ know number of slides present as well as a current slide
+  - ❌ navigate to a next and previous slides
+- ✅ Receive an error message when the newsletter sign up `form` is submitted if:
+  - ✅ The `input` field is empty
+  - ✅ The email address is not formatted correctly
 
 ### Screenshot
 
